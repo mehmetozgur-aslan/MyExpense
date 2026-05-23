@@ -1,0 +1,170 @@
+# .gitignore for Visual Studio, Rider, VS Code, .NET, and C# projects
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.userosscache
+*.sln.ide
+*.vspscc
+*.vssscc
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Others
+*.dbmdl
+*.db
+*.pdb
+*.cache
+*.bak
+*.swp
+*.tmp
+*.tmp_proj
+*.svclog
+*.pidb
+*.scc
+*.ncb
+*.sbr
+*.sdf
+*.cachefile
+*.db-shm
+*.db-wal
+
+# Entity Framework
+Migrations/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Azure
+*.Publish.xml
+
+# Local secrets
+secrets.json
+appsettings.*.local.json
+
+# IIS Express
+/.vs/
+/.vsconfig
+/.vspscc
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Code Workspace
+*.code-workspace
+
+# Windows image file caches
+Thumbs.db
+ ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS for Mac
+.vscode/
+
+# Backup & Report files from converting an old project file
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Dotnet watch
+**/node_modules/
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# SonarQube
+.sonar/
+
+# StyleCop
+StyleCopReport.xml
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Local history for Visual Studio
+.localhistory/
+
+# Visual Studio 2019 config
+.vsconfig
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Web publish
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# Visual Studio cache files
+*.cache
+
+# Others
+*.dbmdl
+*.db
+*.bak
+*.swp
+*.tmp
+
+# End of .gitignore
